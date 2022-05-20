@@ -4,35 +4,37 @@
 
 using namespace std;
 
-Offers :: offers()
+offers::offers()
 
-	{
-		OfferID = 0;
-	}
-	
+{
+	offerID = 0;
+}
 
 
-void Offers :: setoffers(int oID)
+
+offers::offers(int oID)
 {
 	offerID = oID;
 }
 
-double Offers :: OfferType()
-
-{	
-}
-
-double Offers :: displayOfferDetails()
+void offers::offertype()
 
 {
-	cout << "Offers" << endl;
-	cout << "---------------------" << endl;
-	cout << "offerID : " < offerID << endl;
-	cout << "---------------------" << endl;
 }
 
-Offers :: ~Offers()
+void offers::displayOfferDetails()
+
+{
+	
+	cout << "Offers" << endl
+	<< "---------------------" << endl
+	<< "offerID : " <<offerID<< endl
+	<< "---------------------" << endl<<endl;
+}
+
+offers :: ~offers()
 {
 	cout << "Delete Payment Class " << endl;
 
 }
+
