@@ -35,7 +35,7 @@ void weddingPackage::DisplayWeddingPackageDetails()
 	cout << "Wedding Package Code : " << wpcode << endl
 		<< "Wedding Package Name : " << wpName << endl
 		<< "Decoration : " << Decorations << endl
-		<< "Wedding Package Price : " << wpPrice << endl<<endl;
+		<< "Wedding Package Price : " << wpPrice << endl;
 }
 
 weddingPackage::~weddingPackage()
