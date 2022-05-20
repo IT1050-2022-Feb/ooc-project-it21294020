@@ -18,7 +18,7 @@ void Payment :: setPayment(int pID , const char ppayType[], double ppayAmount)
 	payAmount = ppayAmount;
 }
 
-int Payment :: checkPayment()
+void Payment :: checkPayment()
 
 {	
 }
