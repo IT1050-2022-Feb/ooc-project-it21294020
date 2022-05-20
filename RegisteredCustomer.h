@@ -1,15 +1,12 @@
 
-class RegisteredCustomer
+
+class RegisteredCustomer : public Customer
 {
 private:
 	int cid;
 	char username[10];
 	char password[8];
-	char Name[20];
-	char email[20];
-	int mobile;
-	char addres[20];
-	char dob[15];
+	
 
 public:
 	RegisteredCustomer();

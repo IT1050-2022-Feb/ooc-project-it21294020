@@ -1,6 +1,8 @@
+
+
 class Customer
 {
-private:
+protected:
 
 	char Name[20];
 	int mobile;
@@ -13,6 +15,7 @@ public:
 	Customer();
 	Customer(const char cname[], int cmobile,const char cemail[],const char caddres[],const char cdob[]);
 	void Register();
+	void DisplayDetail();
 	void CheckHotels();
 	void CheckHalls();
 	void CheckWeddingPackages();

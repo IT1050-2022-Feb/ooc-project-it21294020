@@ -21,6 +21,18 @@ void Customer::Register()
 {
 }
 
+
+void Customer::DisplayDetail()
+{
+	cout<<"Customer Detail"<<endl
+		<<"--------------------------"<<endl
+		<< "Customer Name : " << Name << endl
+		<< "Email : " << email << endl
+		<< "Mobile No : " << mobile << endl
+		<< "addres :" << addres << endl
+		<< "Date Of Birth" << dob << endl<<endl;
+}
+
 void Customer::CheckHotels()
 {
 }

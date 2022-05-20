@@ -14,7 +14,9 @@ int main()
 {
 	//customer
 	Customer* c1;
-	c1 = new Customer("Ranajan",776585487,"ranjan@gmail.com","No.11/12,Bodhiraja Mawatha,Kesbew","1996-06-23");
+	c1 = new Customer("Ranajan",776585487,"ranjan@gmail.com","Kesbew","1996-06-23");
+
+	c1->DisplayDetail();
 
 	//Registered customer
 	RegisteredCustomer* rc1;
