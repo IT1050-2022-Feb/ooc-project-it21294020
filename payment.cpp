@@ -23,12 +23,12 @@ void Payment :: checkPayment()
 {	
 }
 
-double Payment :: confirmPayment()
+void Payment :: confirmPayment()
 
 {
 }
 
-double Payment :: displayPaymentDetails()
+void Payment :: displayPaymentDetails()
 
 {
   cout << "Payment Details" << endl;

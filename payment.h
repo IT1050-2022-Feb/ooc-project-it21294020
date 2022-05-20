@@ -8,8 +8,8 @@ class Payment
 	public:
 	    Payment();
 		void setPayment(int pID , const char ppayType[] , double ppayAmount);
-		int checkPayment();
-		double confirmPayment();
-		double displayPaymentDetails();
+		void checkPayment();
+		void confirmPayment();
+		void displayPaymentDetails();
 		~Payment();	
 };
