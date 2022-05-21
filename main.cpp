@@ -5,6 +5,7 @@
 #include "FoodPackage.h"
 #include "payment.h"
 #include "offers.h"
+#include "booking.h"
 #include <iostream>
 #include<cstring>
 using namespace std;
@@ -63,6 +64,14 @@ int main()
 
 	of1->displayOfferDetails();
 
+	//booking
+	booking* book1;
+
+	book1 = new booking(100, 2, "SamanP", "2022-05-21");
+	book1->setbookingDetail(8801, 05, 4532, 1245);
+
+	book1->DisplayBookingDetail();
+
 	
 	
 
@@ -71,7 +80,7 @@ int main()
 	
 
 
-	delete c1,rc1,wp1,fp1,of1;
+	delete c1,rc1,wp1,fp1,of1,book1;
 
 	
 	return 0;
